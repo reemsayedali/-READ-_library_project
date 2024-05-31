@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>READ Library</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1, header p {
+            margin: 0;
+        }
+        .nav-link {
+            color: white !important;
+        }
+        .nav-link:hover {
+            background-color: #555 !important;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center">
+        <div class="container">
+            <h1>READ Library</h1>
+            <p>Your gateway to knowledge and adventure</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">READ Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Users/REEM/Desktop/library/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="home" class="content">
+            <h2>Welcome to READ Library</h2>
+            <p>At READ Library, we believe in providing access to a world of knowledge and adventure. Whether you're here to find your next great read, attend one of our community events, or simply enjoy the serene environment, we have something for everyone.</p>
+        </div>
+        <div id="catalog" class="content">
+            <h2>Our Catalog</h2>
+            <div class="form-group">
+                <input type="search" class="form-control" placeholder="Search">
+            </div>
+            <div class="form-group">
+                <select name="book" id="book" class="form-control">
+                    <optgroup>
+                        <option value="book1">Rich Dad Poor Dad</option>
+                        <option value="book2">The Hobbit by J.R.R. Tolkien</option>
+                        <option value="book3">Thinking, Fast and Slow by Daniel Kahneman</option>
+                    </optgroup>
+                </select>
+            </div>
+            <p>Explore our extensive collection of books, magazines, and digital resources. Use our search feature to find exactly what you're looking for.</p>
+        </div>
+        <div id="contact" class="content">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to us, and we'll be happy to help. You can call us at (123) 456-7890 or email us at info@readlibrary.com. Or visit our account on Instagram.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 READ Library. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
